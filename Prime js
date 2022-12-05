@@ -1,0 +1,77 @@
+function No() {
+  for (i = 0; i <= 10; i++) {
+    N = i + "<br/>";
+    document.write(N);
+  }
+}
+function Nu() {
+  for (i = 100; i > 0; i--) {
+    Nu = i + "<br/>";
+    document.write(Nu);
+  }
+}
+function Even() {
+  let x = document.getElementById("EVEN").value;
+  for (i = 0; i <= x; i++) {
+    if (i % 2 == 0) {
+      Even = i + "<br/>";
+      document.write(Even);
+    }
+  }
+}
+function Odd() {
+  let y = document.getElementById("ODD").value;
+  for (i = 0; i <= y; i++) {
+    if (i % 2 == 0) {
+    } else {
+      Odd = i + "<br/>";
+      document.write(Odd);
+    }
+  }
+}
+function PrimeNo() {
+  let P = document.getElementById("Prime").value;
+  if (P == 1) {
+    document.write("The given number 1 is neither Prime nor Composite");
+  } else if (P > 1) {
+    for (let i = 2; i < P; i++) {
+      if (P % i == 0) {
+        Prime = false;
+        break;
+      }
+    }
+    if (Prime) {
+      document.write("The given number is prime");
+    } else {
+      document.write("The given number is not a prime");
+    }
+  } else {
+    document.write("The given number is not a prime");
+  }
+}
+function EO() {
+  let z = document.getElementById("E/O").value;
+  if (z % 2 == 0) {
+    document.write("The given number is Even");
+  } else {
+    document.write("The given number is Odd");
+  }
+}
+function PO() {
+  const a = document.getElementById("LN").value;
+  const b = document.getElementById("HN").value;
+  for (let i = a; i <= b; i++) {
+    let flag = 0;
+    for (let j = 2; j < i; j++) {
+      if (i % j == 0) {
+        flag = 1;
+        break;
+      }
+    }
+    if (i > 1 && flag == 0) {
+      Pr = i + "<br/>";
+      document.write(Pr);
+    }
+  }
+}
+
