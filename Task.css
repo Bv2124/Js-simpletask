@@ -1,0 +1,133 @@
+div{
+    text-align: center;
+    padding: 1em;
+    background-color: darkcyan;
+    color: snow;
+    border: solid snow 0.3em;
+    font-size: 1.5em;
+    outline: solid black;
+}
+input,p{
+    font-size:1.2em;
+    border: 0;
+    border-radius: 0.2em;
+}
+p{
+    background-color: grey;
+    width: 40%;
+    margin: 0 auto;
+}
+button {
+      background-color: lightblue;
+      border: 1px solid #266DB6;
+      font-size: 1.2em;
+      line-height: 2px;
+      padding: 16px 23px;
+    }
+.txtReverse{
+    height: 8.5em;
+}
+.Textcombine{
+    height: 12em;
+    line-height: 2em
+}
+.Uniquevalue{
+    height: 18em;
+    line-height: 2em
+}
+.UserInput{
+    height: 6em;
+}
+.UserInput input{
+    width: 6%;
+}
+.Anagrams{
+    height: 12em;
+}
+.Consonant{
+    height: 15em;
+}
+.Closure{
+    height: 14em;
+}
+.Date_Time{
+    height: 8em;
+}
+.Leap_year{
+    height: 12em;
+}
+.Leap_year input{
+    width: 4.5%;
+}
+.Compare_Date{
+    height: 15em;
+}
+.Stopwatch{
+    height: 10em;
+}
+.Countdown{
+    height: 10em;
+}
+.Random_Number{
+    height: 12em;
+}
+.Random_Number input{
+    width: 4.5%;
+}
+.Url{
+    height: 10em;
+}
+.Email_validation{
+    height: 12em;
+}
+.Float_Integer{
+    height: 12em;
+}
+.Float_Integer input{
+    width: 4.5%;
+}
+.Image_dimension{
+    height: 12em;
+}
+.Stack{
+    height: 12em;
+}
+.Queue{
+    height: 15em;
+}
+.Import{
+    height: 12em;
+}
+.Import input{
+    width: 4.5%;
+}
+.White_space{
+    height: 12em;
+}
+.White_space input{
+    text-align: center;
+    width: 60%;
+}
+.Encode{
+    height: 22em;
+}
+.Replace_linebreak{
+    height: 15em;
+}
+.Find_extension{
+    height: 12.5em;
+}
+.Range_values{
+    height: 20em;
+}
+.Range_values p {
+    width: 50%;
+    height: 100%;
+    display: inline;
+}
+.Range_values input{
+    width: 10%;
+}
+.DOB_validation{
+    height: 10em;
+}
