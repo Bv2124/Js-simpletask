@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./2.js"></script>
+    <link rel="stylesheet" href="./2.css">
+</head>
+<body>
+  <div class="txtReverse" >
+    <h3>REVERSE A STRING</h3>
+  <label for="txtRevese">Enter the text to Reverse</label>
+  <input type="text" id="txt"><br/><br>
+  <button onclick="textReverse()">Click to Reverse</button>
+  <p id="revtxt"></p>
+  </div>
+  <div class="Textcombine">
+    <h3>COMBINE TWO STRINGS</h3>
+  <label for="txtCombine">Enter the text to Combine</label><br/>
+  <label for="txt1">Enter the First text</label>
+  <input type="text" id="txt1">
+  <label for="txt2">Enter the Second text</label>
+  <input type="text" id="txt2"><br>
+  <button onclick="combinearray()">Click to Combine</button>
+  <p id="CA"></p>
+  </div>
+  <div class="Uniquevalue">
+    <h3>COMBINE TWO STRINGS AND FIND OUT THE UNIQUE VALUE ALONG WITH ADDITION OF 2 FROM THE CENTER</h3>
+    <form class="" action="index.html" method="post">
+      <label for="text1">Enter the First element</label>
+      <input type="text" id="array1" value="" />
+      <label for="text1">Enter the Second element</label>
+      <input type="text" id="array2" value="" /><br>
+      <button type="button" name="button" onclick="Uniquevalue()">Submit</button>
+  </form>
+  <p id="result2"></p>
+  <p id="result02"></p>
+  <p id="result002"></p>
+  </div>
+
+  <div class="UserInput">
+    <h3>INPUT YOUR VALUE TO CHANGE THE SIZE OF A INPUT AREA</h3>
+    <label for="inputtype">User Input depend on the User</label>
+      <input type="text" id="increase" oninput="UserInput()">
+  </div>
+
+  <div class="Anagrams">
+    <h3>GIVE TWO STRINGS TO CHECK WHETHER THEY ARE ANAGRAMS OR NOT</h3>
+    <label for="Anagrams">Enter the text to check</label><br/><br>
+    <label for="a">Enter the First text</label>
+    <input type="text" id="string1">
+    <label for="b">Enter the Second text</label>
+    <input type="text" id="string2"><br><br>
+    <button onclick="isAnagram()">Click to Check</button>
+    <p id="Anagram"></p>
+  </div>
+
+    <div class="Consonant" >
+      <h3>COUNT THE CONSONANT AND VOWELS IN A GIVEN SENTENCE</h3>
+      <label for="arr">Enter the text</label>
+      <input type="text" id="arr"><br/><br>
+      <button onclick="Count()">Click to count</button><br><br>
+      <p id = labelforConsonant style="display: none;">In the given sentence, consonants are :-</p><br>
+      <p id="Consonant"></p><br>
+      <p id = labelforVowel style="display: none;">In the given sentence, vowels are :-</p><br>
+      <p id="Vowel"></p>
+    </div>
+
+    <div class="Closure">
+      <h3>THE GIVEN NAME CAN BE ACT AS A OUTER FUNCTION'S VARIABLE AND THEN IT CAN BE ACCESSED USING THE INNER FUNCTION FOR THE GREETING</h3>
+      <h3>Enter your name</h3>
+      <input type="text" name="" id="Name"><br><br>
+      <button onclick="Closure()">Click to action</button><br><br>
+      <p id="Ans"></p>
+    </div>
+
+    <div class="Date_Time">
+      <h3>CLICK TO GET THE CURRENT DATE AND TIME BY USING JAVASCRIPT</h3>
+       <button type="button" onclick="Date_Time()">Click to get Date and Time</button>
+       <p id="Date&Time"></p>
+    </div>
+
+    <div class="Leap_year">
+      <h3>ENTER THE YEAR TO CHECK WHETHER IT IS LEAP OR NOT</h3>
+      <h3>Enter your input year </h3>
+      <input type="text" id="year"><br><br>
+      <button onclick="Leap_year()">Click to check the year </button><br><br>
+      <P id="Leap"></P> 
+    </div>
+
+    <div class="Compare_Date">
+      <h3>FIND THE DIFFERENCE BETWEEN TWO DATES</h3>
+      <h3>Enter two dates to compare</h3>
+      <input type="date" id="Date1">
+      <input type="date" id="Date2"><br><br>
+      <button onclick="Compare_Date()">Compare it !</button><br><br>
+      <p id="DifferenceinDays"></p><br>
+      <p id="DifferenceinHours"></p>
+  </div>
+    <div class="Stopwatch">
+      <h3>STOPWATCH USING JAVASCRIPT</h3>
+      <h3>You can Start, Stop and Reset it by clicking the below button !!</h3>
+      <p><span id="seconds">00</span>:<span id="tens">00</span></p><br>
+      <button id="Start">Start</button>
+      <button id="Stop">Stop</button>
+      <button id="Reset">Reset</button>
+    </div>
+    
+    <div class="Countdown">
+      <h3>COUNT DOWN USING JAVASCRIPT</h3>
+      <h3>You can Start it by clicking the below button !!</h3>
+      <button onclick="Count_down()">Click to start the timer</button><br><br>
+      <p id="Count_down"></p>
+    </div>
+
+    <div class="Import">
+      <h3>IMPORT A EXTERNAL .js FILE AND UTILIZE IT </h3>
+      <h3>Enter two numbers</h3>
+      <input type="text" id="a"> +
+      <input type="text" id="b"><br><br>
+      <button type="button" onclick="">Add</button>
+      <p id="Ans_import"></p>
+    </div>
+    
+    <div class="Random_Number">
+      <h3> GET A RANDOM NUMBER</h3>
+      <h3>Fix two intervals to get a random number</h3>
+      <input type="text" id="Lowerpoint">
+      <input type="text" id="Higherpoint"><br><br>
+      <button onclick="Random_Number()">Give a Random !</button><br><br>
+      <p id="Random_Number"></p>
+    </div>
+
+    <div class="Url">
+      <h3>CLICK TO GET THE CURRENT URL BY USING JAVASCRIPT</h3>
+      <h3> Uniform Resource Locator</h3>
+      <button type="button" onclick="Url()">Click to get url</button>
+      <p id="Url"></p>
+    </div>
+
+    <div class="Email_validation">
+      <h3>ENTER YOUR EMAIL TO VALIDATE</h3>
+      <h3>Enter a E-mail</h3>
+      <input type="text" id="EA"><br/><br>
+      <button type="button" onclick="Email_validation()">Click to validate</button><br>
+      <p id="EAE"></p><br>
+    </div>
+    
+    <div class="Stack">
+      <h3>REVERSE A STRING USING STACK </h3>
+      <h3>Enter a word </h3>
+      <input type="text" id="text"><br/><br>
+      <button type="button" onclick="Stack()">Click to reverse</button><br><br>
+      <p id="Result_Stack"></p>
+    </div>
+
+    <div class="Queue">
+      <h3>PRINT THE BINARY NUMBERS USING QUEUE</h3>
+      <h3>Enter the limit to generate</h3>
+      <input type="text" id="Limit"><br><br>
+      <button type="button" onclick="Queue_in_JS()">Click to action</button><br><br>
+      <p id="Result_Queue"></p>
+    </div>
+
+    <div class="Float_Integer">
+      <h3>ENTER YOUR NUMBER TO CHECK WHETHER IT IS FLOAT OR INTEGER</h3>
+      <h3>Enter a number</h3>
+      <input type="text" id="Input"><br/><br>
+      <button type="button" onclick="Float_Integer()">Click to check</button><br><br>
+      <p id="Result_Float_Integer"></p>
+    </div>
+
+    <div class="Image_dimension">
+      <h3>DRAG A IMAGE FILE TO FIND THE WIDTH AND HEIGHT</h3>
+      <h3>Drag a file</h3>
+      <input type="file" id="image"><br>
+      <button type="button" onclick="Image_dimension()">Click to find</button>
+      <p id="width"></p>
+      <p id="height"></p>
+    </div>
+
+    <div class="White_space">
+      <h3>ENTER YOUR TEXT WITH WHITE SPACE AND CLICK TO REMOVE IT</h3>
+      <h3>Enter a text</h3>
+      <input type="text" id="Input_text"><br/><br>
+      <button type="button" onclick="White_space()">Click to remove it !</button><br><br>
+      <p id="Result_White_space"></p>
+    </div>
+
+    <div class="Date_Number">
+      <h3>CONVERT DATE INTO NUMBER</h3>
+      <h3>Enter a date to convert</h3>
+      <input type="date" id="Date"><br><br>
+      <button onclick="Date_Number()">Convert it !</button><br><br>
+      <p id="Date_Display"></p><br>
+      <p id="Date_in_Numbers"></p>
+    </div>
+
+    <div class="Encode">
+      <h3>ENTER YOUR TEXT TO ENCODE IT INTO BASE 64</h3>
+      <h3>Enter a text</h3>
+      <input type="text" id="String"><br><br>
+      <button type="button" onclick="Convert_Base_64()">Click to Encode</button><br><br><br>
+      <p id="Result_Base_64"></p><br>
+      <input type="text" id="Base_64"><br><br>
+      <button type="button" onclick="Convert_String()">Click to Decode</button><br><br>
+      <p id="Result_String"></p><br>
+    </div>
+
+    <div class="Replace_linebreak">
+      <h3>ENTER YOUR TEXT TO REPLACE THE LINEBREAK INTO BREAK TAGS </h3>
+      <h3>Enter a text</h3>
+      <input type="text" id="Input_Paragraph"><br/><br>
+      <button type="button" onclick="Replace_linebreak()">Click to replace it !</button><br><br>
+      <p id="Result_Replace"></p>
+    </div>
+
+    <div class="Find_extension">
+      <h3>DRAG YOUR FILE TO FIND OUT ITS EXTENSION</h3>
+      <h3>Drag your file here !</h3>
+      <input type="file" id="Input_file"><br><br>
+      <button onclick="File_extension()">Check it</button><br><br>
+      <p id="Result_Find_extension"></p>
+    </div>
+
+    <div class="Range_values">
+      <h3>PRINT THE VALUES BETWEEN TWO RANGES </h3>
+      <h3>Enter two ranges</h3>
+      From <input type="text" id="From"><br><br>
+      To <input type="text" id="To"><br><br>
+      <button type="button" onclick="Range_values()">Generate</button><br>
+      <p id="Result_values"></p>
+    </div>
+
+    <div class="DOB_validation">
+      <h3>PLEASE ENTER YOUR DATE OF BIRTH TO VALIDATE</h3>
+      <h3>Enter your Date Of Birth here !</h3>
+      <input type="date" id="DOB"><br><br>
+      <button type="button" onclick="DOB_validation()">Click to confirm</button><br>
+      <p id="Result_DOB_validation"></p>
+    </div>
+
+</body>
+</html>
